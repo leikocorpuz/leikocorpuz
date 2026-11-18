@@ -1,0 +1,435 @@
+
+/* fonts */
+.rubik-font {
+  font-family: 'Rubik', Tahoma;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.huninn-regular {
+  font-family: "Huninn", Verdana;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header */
+.header {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  border-radius: 60px;
+  box-sizing: border-box;
+  background-image: 
+  linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+  url(leaf.png);
+  text-align: center;
+}
+
+.header hr {
+  border: none;              
+  height: 1px;              
+  background-color: #3B412A; 
+  border-radius: 5px;                 
+  width: 50%; 
+}  
+	
+/* headings */	
+h1 {
+  color: #3b412a;
+  font-family: rubik, Tahoma;
+  font-size: 6rem;
+}
+
+h2 {
+  color: #3b412a;
+  font-family: rubik, Tahoma;
+  font-size: 4rem;
+}
+
+h3 {
+  color: #3b412a;
+  font-family: rubik, Tahoma;
+  font-size: 3.5rem;
+}
+
+/* body */
+body {
+  background-image: url(background.png);
+  background-size: cover;
+  padding: 150px;
+}
+
+/* about */
+.about {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+       
+.profile-photo {
+  flex: 1;
+  height: 700px;
+  border-radius: 60px;  
+  background-image: 
+  linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+  url(leaf.png);
+  padding: 50px;
+}
+
+.profile-photo img {
+  height: 100%;
+  max-width: 100%;    
+  display: block;
+  margin: auto;
+}
+
+ .about-box {
+  flex: 2;
+  height: 700px;
+  border-radius: 60px;  
+  background-image: 
+  linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+  url(leaf.png);
+  padding: 50px;
+ }
+
+.about hr {
+  border: none;              
+  height: 1px;              
+  background-color: #3B412A; 
+  border-radius: 5px;                 
+  width: 100%;                
+}
+
+.about p {
+  color: #3b412a;
+  font-family: huninn, Verdana;
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
+/* things i love */
+.loves {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 60px;
+  box-sizing: border-box;
+  background-image: 
+  linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+  url(leaf.png);
+  text-align: center;
+  justify-content: center;
+}
+
+.loves hr {
+  border: none;              
+  height: 1px;              
+  background-color: #3B412A; 
+  border-radius: 5px;                 
+  width: 100%;                
+}
+
+.loves h3 {
+  text-align: left;
+}
+
+.loves-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.loves-row h4 {
+  text-align: center;
+  color: #C7DEA4;
+  font-family: rubik, Tahoma;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.loves-row p {
+  text-align: center;
+  color: #C7DEA4;
+  font-family: huninn, Verdana;
+  font-size: 1.8rem;
+}
+
+.jp, .flowers, .games, .dogs {
+  flex: 1;  
+  border: none;              
+  height: 250px;              
+  background-image: linear-gradient(#3b412a, #596141);
+  border-radius: 20px;    
+  padding: 20px;
+  box-sizing: border-box;  
+  width: 20%;                
+}
+
+/* projects */
+
+.projects {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 60px;
+  box-sizing: border-box;
+  background-image: 
+  linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+  url(leaf.png);
+  text-align: center;
+  justify-content: center;
+}
+
+.projects hr {
+  border: none;              
+  height: 1px;              
+  background-color: #3B412A; 
+  border-radius: 5px;                 
+  width: 100%;                
+}
+
+.projects h3 {
+  text-align: right;
+}
+
+.proj-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.proj-row hr {
+  border: none;              
+  height: 1px;              
+  background-color: #C7DEA4; 
+  border-radius: 5px;                 
+  width: 100%;      
+  margin-top: 20px;
+}
+
+.proj-row h4 {
+  text-align: left;
+  color: #C7DEA4;
+  font-family: rubik, Tahoma;
+  font-size: 2.7rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.proj-row p {
+  text-align: justify;
+  color: #C7DEA4;
+  font-family: huninn, Verdana;
+  font-size: 2rem;
+}
+
+.ramu, .af, .story {  
+  display: flex;
+  flex-direction: row;
+  border: none;              
+  height: auto;              
+  border-radius: 20px;    
+  padding: 20px;
+  box-sizing: border-box;                  
+}
+
+.ramu-img, .af-img, .story-img {  
+  flex: 1;
+  border: none;              
+  height: 450px;              
+  background-image: linear-gradient(#3b412a, #596141);
+  border-radius: 20px;    
+  padding: 20px;
+  box-sizing: border-box;  
+  width: 20%;                
+}
+
+.ramu-text, .af-text, .story-text {  
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  border: none;              
+  height: 450px;              
+  background-image: linear-gradient(#3b412a, #596141);
+  border-radius: 20px;    
+  padding: 35px;
+  box-sizing: border-box;  
+  margin-left: 15px;
+  width: 20%;                
+}
+
+.ramu-btn, .af-btn, .story-btn {
+  margin-top: auto;
+  margin-left: auto; 
+  display: inline-block;
+  background-image: linear-gradient(#C7DEA4, #daf0b9);
+  color: #3b412a;
+  text-decoration: none;
+  font-family: huninn, Verdana;
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+#proj1, #proj2, #proj3 {
+  width: 100%;
+  height: 100%;	
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* contacts */ 
+.contacts {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background-image: 
+	linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
+	url(leaf.png);
+  text-align: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 15px;            
+  margin-bottom: 50px;  
+  justify-content: center;
+}
+
+.buttons a{
+  background-image: linear-gradient(#3b412a, #596141);
+  color: #C7DEA4;          
+  text-decoration: none;     
+  font-family: huninn, Verdana;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+/*mobile*/
+@media (max-width: 600px) {
+	
+  body {
+  padding: 0;
+}
+  .header, .profile-photo, .about, .loves, .loves-row, .projects, .proj-row, .contacts  {
+    flex-direction: column; 
+	padding: 15px;
+  }
+  
+  .about-box {
+	padding: 35px;
+  }
+  
+  .loves-row, .proj-row {
+    margin-top: 0;
+	margin-bottom: 0;
+  }
+  
+  .profile-photo img {
+    height: 300px;       
+    width: 300px;         
+    object-fit: cover;   
+    object-position: center; 
+  }  
+  
+   .jp, .flowers, .games, .dogs {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+   .ramu, .af, .story {
+	width: 100%;
+	height: auto;
+    flex-direction: column;
+	padding: 10px;
+    align-items: center;
+  }
+  
+  .ramu-img, .af-img, .story-img {
+	flex: none;
+	width: 100%;
+    height: 100%;     
+    object-fit: cover;   
+    object-position: center; 
+	padding: 10px;
+	margin-top: 0;
+  }
+  
+  .ramu-text, .af-text, .story-text {
+	flex: none;    
+	width: 100%;
+    height: auto; 
+	padding: 25px;
+	margin-left: 0;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .proj-row p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
+  .projects h4 {
+    font-size: 1rem;
+	text-align: center;
+  }  
+ 
+  .ramu-btn, .af-btn, .story-btn {
+    text-align: center;
+	margin: 0;
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+  
+  .buttons {
+	flex-direction: column;
+  }
+  
+  .buttons a{
+    font-size: 1.3rem;
+  }
+  
+   h1 {
+    font-size: 3rem;
+  }
+
+   h2 {
+   font-size: 2rem;
+  } 
+
+   .about h3, .loves h3, .projects h3, .contacts h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+   .projects h4, .loves h4 {
+    font-size: 1.1rem;
+  }
+  
+   .about p, .loves p{
+    font-size: 1rem;
+  }
+ }
