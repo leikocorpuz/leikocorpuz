@@ -88,7 +88,7 @@ body {
   object-fit: cover;
 }
 
- .about-box {
+.about-box {
   flex: 2;
   height: 300px;
   border-radius: 60px;  
@@ -97,6 +97,10 @@ body {
   url(leaf.png);
   padding: 50px;
  }
+ 
+.about h3 {
+  margin-top: 0;
+}
 
 .about hr {
   border: none;              
@@ -140,7 +144,9 @@ body {
 
 .loves h3 {
   text-align: left;
+  margin-top: 0;
 }
+
 
 .loves-row {
   display: flex;
@@ -203,6 +209,7 @@ body {
 
 .projects h3 {
   text-align: right;
+  margin-top: 0;
 }
 
 .proj-row {
@@ -310,11 +317,14 @@ body {
   justify-content: center;
 }
 
+.contacts h3 {
+  margin-top: 0;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;      
   gap: 25px;            
-  margin-bottom: 25px;  
   justify-content: center;
 }
 
