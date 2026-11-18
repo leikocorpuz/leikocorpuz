@@ -345,13 +345,9 @@ body {
   body {
   padding: 0;
 }
-  .header, .profile-photo, .about, .loves, .loves-row, .projects, .proj-row, .contacts  {
+  .header, .profile-photo, .about-box, .about, .loves, .loves-row, .projects, .proj-row, .contacts  {
     flex-direction: column; 
-	padding: 15px;
-  }
-  
-  .about-box {
-	padding: 35px;
+	padding: 25px;
   }
   
   .loves-row, .proj-row {
@@ -422,7 +418,7 @@ body {
   }
   
   .buttons a{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
    h1 {
@@ -439,10 +435,10 @@ body {
   }
 
    .projects h4, .loves h4 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   
    .about p, .loves p{
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
  }
