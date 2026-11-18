@@ -40,19 +40,19 @@
 h1 {
   color: #3b412a;
   font-family: rubik, Tahoma;
-  font-size: 6rem;
+  font-size: 3rem;
 }
 
 h2 {
   color: #3b412a;
   font-family: rubik, Tahoma;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 h3 {
   color: #3b412a;
   font-family: rubik, Tahoma;
-  font-size: 3.5rem;
+  font-size: 1.6rem;
 }
 
 /* body */
@@ -72,7 +72,7 @@ body {
        
 .profile-photo {
   flex: 1;
-  height: 700px;
+  height: 300px;
   border-radius: 60px;  
   background-image: 
   linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
@@ -85,11 +85,12 @@ body {
   max-width: 100%;    
   display: block;
   margin: auto;
+  object-fit: cover;
 }
 
  .about-box {
   flex: 2;
-  height: 700px;
+  height: 300px;
   border-radius: 60px;  
   background-image: 
   linear-gradient(#a6b88c99, #C7DEA499, #daf0b9),
@@ -108,7 +109,7 @@ body {
 .about p {
   color: #3b412a;
   font-family: huninn, Verdana;
-  font-size: 2.5rem;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -151,7 +152,7 @@ body {
   text-align: center;
   color: #C7DEA4;
   font-family: rubik, Tahoma;
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -160,13 +161,13 @@ body {
   text-align: center;
   color: #C7DEA4;
   font-family: huninn, Verdana;
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 
 .jp, .flowers, .games, .dogs {
   flex: 1;  
   border: none;              
-  height: 250px;              
+  height: 200px;              
   background-image: linear-gradient(#3b412a, #596141);
   border-radius: 20px;    
   padding: 20px;
@@ -217,15 +218,15 @@ body {
   background-color: #C7DEA4; 
   border-radius: 5px;                 
   width: 100%;      
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .proj-row h4 {
   text-align: left;
   color: #C7DEA4;
   font-family: rubik, Tahoma;
-  font-size: 2.7rem;
-  margin-top: 20px;
+  font-size: 1.3rem;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -233,7 +234,9 @@ body {
   text-align: justify;
   color: #C7DEA4;
   font-family: huninn, Verdana;
-  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1rem;
 }
 
 .ramu, .af, .story {  
@@ -242,14 +245,14 @@ body {
   border: none;              
   height: auto;              
   border-radius: 20px;    
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;                  
 }
 
 .ramu-img, .af-img, .story-img {  
   flex: 1;
   border: none;              
-  height: 450px;              
+  height: 200px;              
   background-image: linear-gradient(#3b412a, #596141);
   border-radius: 20px;    
   padding: 20px;
@@ -262,10 +265,10 @@ body {
   display: flex;
   flex-direction: column;
   border: none;              
-  height: 450px;              
+  height: 200px;              
   background-image: linear-gradient(#3b412a, #596141);
   border-radius: 20px;    
-  padding: 35px;
+  padding: 30px;
   box-sizing: border-box;  
   margin-left: 15px;
   width: 20%;                
@@ -279,8 +282,8 @@ body {
   color: #3b412a;
   text-decoration: none;
   font-family: huninn, Verdana;
-  font-size: 2rem;
-  padding: 20px;
+  font-size: 0.7rem;
+  padding: 10px;
   border-radius: 40px;
 }
 
@@ -310,8 +313,8 @@ body {
 .buttons {
   display: flex;
   flex-wrap: wrap;      
-  gap: 15px;            
-  margin-bottom: 50px;  
+  gap: 25px;            
+  margin-bottom: 25px;  
   justify-content: center;
 }
 
@@ -321,7 +324,7 @@ body {
   text-decoration: none;     
   font-family: huninn, Verdana;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 25px;
   border-radius: 50px;
 }
